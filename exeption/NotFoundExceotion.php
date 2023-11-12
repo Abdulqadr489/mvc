@@ -1,6 +1,6 @@
 <?php
 
-namespace thecodeholic\phpmvc\exeption;
+namespace thecodeholicc\phpmvcc\exeption;
 
 class NotFoundExceotion extends \Exception
 {

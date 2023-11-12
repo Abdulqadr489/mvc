@@ -1,6 +1,6 @@
 <?php
 
-namespace thecodeholic\phpmvc;
+namespace thecodeholicc\phpmvcc;
 
 
 abstract class Model

@@ -1,9 +1,9 @@
 <?php 
 
-namespace thecodeholic\phpmvc\db;
+namespace thecodeholicc\phpmvcc\db;
 
 
-use thecodeholic\phpmvc\Application;
+use thecodeholicc\phpmvcc\Application;
 
 class Database
 {

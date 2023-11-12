@@ -1,5 +1,5 @@
 {
-    "name": "thenew11/php-mvc-core1",
+    "name": "thecodeholicc\phpmvcc/php-mvc-core1",
     "autoload": {
         "psr-4": {
             "Tc\\PhpMvcCore\\": "src/"
@@ -11,7 +11,9 @@
             "email": "abdulqadrmuhamad40@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "thecodeholicc\phpmvcc11/php-mvc-core1": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "thecodeholic\\phpmvc\\":"./"

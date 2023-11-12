@@ -1,8 +1,8 @@
 <?php
-namespace thecodeholic\phpmvc;
-use thecodeholic\phpmvc\Application;
-use thecodeholic\phpmvc\middlewares\AuthMiddleware;
-use thecodeholic\phpmvc\middlewares\BaseMiddleware;
+namespace thecodeholicc\phpmvcc;
+use thecodeholicc\phpmvcc\Application;
+use thecodeholicc\phpmvcc\middlewares\AuthMiddleware;
+use thecodeholicc\phpmvcc\middlewares\BaseMiddleware;
 class Controller extends AuthMiddleware
 {
         public string $layout='main';

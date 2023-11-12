@@ -1,8 +1,10 @@
 <?php
 
-namespace thecodeholic\phpmvc;
-use thecodeholic\phpmvc\db\Database;
-use thecodeholic\phpmvc\db\DbModel;
+
+use thecodeholicc\phpmvcc\db\Database;
+use thecodeholicc\phpmvcc\db\DbModel;
+
+
 
 class Application
 {

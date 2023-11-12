@@ -1,5 +1,5 @@
 <?php
-namespace thecodeholic\phpmvc;
+namespace thecodeholicc\phpmvcc;
 
 
 class response{

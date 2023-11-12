@@ -1,8 +1,8 @@
 <?php
 
-namespace thecodeholic\phpmvc\form;
+namespace thecodeholicc\phpmvcc\form;
 
-use thecodeholic\phpmvc\Model;
+use thecodeholicc\phpmvcc\Model;
 
 class Form{
     public static function begin($action , $method)

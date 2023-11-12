@@ -1,9 +1,9 @@
 <?php
 
-namespace thecodeholic\phpmvc\db;
+namespace thecodeholicc\phpmvcc\db;
 
- use thecodeholic\phpmvc\Application;
- use thecodeholic\phpmvc\Model;
+ use thecodeholicc\phpmvcc\Application;
+ use thecodeholicc\phpmvcc\Model;
 
  abstract class DbModel extends  Model
 {
