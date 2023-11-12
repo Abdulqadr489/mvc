@@ -1,8 +1,8 @@
 <?php
 
 
-use thecodeholicc\phpmvcc\db\Database;
-use thecodeholicc\phpmvcc\db\DbModel;
+use thephp\phpmvccore\db\Database;
+use thephp\phpmvccore\db\DbModel;
 
 
 

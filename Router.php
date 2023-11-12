@@ -1,9 +1,9 @@
 <?php
 
-namespace thecodeholicc\phpmvcc;
+namespace thephp\phpmvccore;
 
-use thecodeholicc\phpmvcc\Controller;
-use thecodeholicc\phpmvcc\exeption\NotFoundExceotion;
+use thephp\phpmvccore\Controller;
+use thephp\phpmvccore\exeption\NotFoundExceotion;
 
 class Router
 {
@@ -43,7 +43,7 @@ class Router
        }
        if(is_array($callback))
        {
-           /** @var \thecodeholicc\phpmvcc\Controller $controller */
+           /** @var \thephp\phpmvccore\Controller $controller */
            $controller = new $callback[0]();
            Application::$app->controller=$controller;
            $controller->action=$callback[1];

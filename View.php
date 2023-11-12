@@ -1,6 +1,6 @@
 <?php
 
-namespace thecodeholicc\phpmvcc;
+namespace thephp\phpmvccore;
 
 class View
 {
