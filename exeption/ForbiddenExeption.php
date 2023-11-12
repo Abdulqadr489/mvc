@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exeption;
+namespace thecodeholic\phpmvc\exeption;
 
 class ForbiddenExeption extends \Exception
 {

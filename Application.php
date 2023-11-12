@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
-use app\core\db\Database;
-use app\core\db\DbModel;
+namespace thecodeholic\phpmvc;
+use thecodeholic\phpmvc\db\Database;
+use thecodeholic\phpmvc\db\DbModel;
 
 class Application
 {
@@ -28,7 +28,6 @@ class Application
     {
 
         $this->userClass=$config['userClass'];
-
         self::$ROOT_DIR = $rootPath;
         self::$app = $this;
         $this->request = new Request();
@@ -55,6 +54,7 @@ class Application
     {
         return !self::$app->user;
     }
+
 
     public function run()
     {
@@ -98,6 +98,6 @@ class Application
         $this->session->remove('user');
     }
 
-    
-   
-}  
+
+
+}

@@ -1,7 +1,7 @@
 <?php 
-namespace app\core\Form;
+namespace thecodeholic\phpmvc\Form;
 
-use app\core\Model;
+use thecodeholic\phpmvc\Model;
 
 class InputField extends BaseField {
 

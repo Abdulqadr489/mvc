@@ -11,5 +11,10 @@
             "email": "abdulqadrmuhamad40@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "thecodeholic\\phpmvc":"./"
+        }
+    }
 }
